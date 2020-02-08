@@ -2,8 +2,8 @@
 Implemented a disjoint set in order to create a randomized maze. The maze is then solved using a BFS algorithm.
 
 ## Files I Wrote
--dsets.cpp/h
--maze.cpp/h
+- dsets.cpp/h
+- maze.cpp/h
 
 ## To Run the Code
 1. Run the makefile
