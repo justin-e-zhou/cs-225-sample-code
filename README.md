@@ -1,2 +1,2 @@
-# CS 225 Sample Code
-Interesting snippets of code from projects in CS 225 at UIUC
+# Justin Zhou Sample Code
+Interesting snippets of code from personal project and projects in CS 225 at UIUC
