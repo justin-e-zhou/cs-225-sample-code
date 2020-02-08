@@ -1,0 +1,6 @@
+Of course! Half of the building is different! How could you have forgotten this fact? You race to the other side of the building and head to the stairs. You open the door and... there is no cage blocking your way! You take the stairs two steps at a time. You burst through the door and sprint down the hall to 4022 ECEB. You see the resume sitting there on the printer and you grab it. You run back to the elevator and you smash the button. After what feels like an eternity, the elevator arrives with a *ding*. You quickly hop in and head down to the first floor. Running back into the lecture hall, you see Bill Gates with a stack of papers in front of him.
+
+You make your way through the sea of students, trying to get to Bill. You eventually make it. Your shirt is soaked with sweat and you are panting like a dog, but you made it. You hand him the resume, still in pristine condition somehow, and you make your way back to your seat. 
+
+# mystory-get-job
+You sit down as Professor Evans starts wrapping up the class. 
