@@ -1,4 +1,4 @@
-# mp_mazes
+# mp_mazes from CS 225
 Implemented a disjoint set in order to create a randomized maze. The maze is then solved using a BFS algorithm.
 
 ## Files I Wrote
