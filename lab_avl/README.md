@@ -1,4 +1,4 @@
-# lab_avl
+# lab_avl from CS 225
 A lab to implement AVL (self-balancing) trees.
 
 ## Files I Wrote/Modified
