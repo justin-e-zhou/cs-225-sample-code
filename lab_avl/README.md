@@ -1,7 +1,7 @@
 # lab_avl from CS 225
 A lab to implement AVL (self-balancing) trees.
 
-## Files I Wrote/Modified
+## Files Written/Modified
 - avltree.cpp/h
 
 ## To Run The Code

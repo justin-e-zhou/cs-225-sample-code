@@ -1,8 +1,0 @@
-You begin furiously typing away on your MacBook Pro 2019 in hopes of getting as much information on there as possible. You list all your skills, including Microsoft PowerPoint and Microsoft Word, as well as your "Projects." You fit some buzzwords in there such as "Big Data" and "Machine Learning" in hopes that they won't actually ask you about it during an interview.
-
-After a few minutes of scrambling, you have... something. You quickly use the University web print to print your resume out in some back room in ECEB. The site shows it has printed, so you dash out of the lecture hall, looking for where in the world it is. You vaguely remember the selected room as being 4022 ECEB. You have no idea why you printed it so far. It must have been an accident. Oh well, there's a lot on the line here, so you better hurry. You make your way to the elevator and hop in. You look at the butons and select the fourth floor... but there is no '4' button. 
-
-Now you start panicking. How is there no fourth floor when you can clearly print to the fourth floor printer? As you stand there staring at the buttons, the elevator starts filling up. Squeezed in with no room to move, you are forced to ride the elevator up to the third floor. You get out and look for the stairs. They are on your left! You open the door only to be greeted with a cage blocking your way up. You slump against the wall, feeling lost, knowing that you will never get that Microsoft internship...
-
-# mystory-remember
-But then, you remember something your friend told you about the building!

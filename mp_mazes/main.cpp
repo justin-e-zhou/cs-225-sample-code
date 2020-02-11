@@ -5,18 +5,20 @@
 
 using namespace std;
 
+// The main function is used to call all the
+// functions necessary to create solved and 
+// unsolved mazes.
 int main()
 {
     // Write your own main here
-    /*
-    SquareMaze maze;
-    maze.makeNonCreativeMaze(30, 30);
-    cs225::PNG* mazePNG = maze.drawCreative();
-    mazePNG->writeToFile("creative.png");
-*/
+    int a, b;
+    printf("Enter the width and height of the maze to create\n");
+    printf("Width: ");
+    scanf("%d\n", &a);
+    printf("Height: ");
+    scanf("%d\n", &b);
     SquareMaze maze2;
-    maze2.makeMaze(200, 200);
-    //maze2.solveMaze();
+    maze2.makeMaze(a, b);
     cs225::PNG* mazePNG2 = maze2.drawMaze();
     mazePNG2->writeToFile("regular.png");
     cs225::PNG* mazePNG2Sol = maze2.drawMazeWithSolution();
