@@ -4,12 +4,16 @@
  * You'll need to modify this file.
  */
 
+// This function finds a the value of a node in the tree
+// given a key.
 template <class K, class V>
 V AVLTree<K, V>::find(const K& key) const
 {
     return find(root, key);
 }
 
+// This function is a helper function that recursively finds
+// the value of a node given a key. 
 template <class K, class V>
 V AVLTree<K, V>::find(Node* subtree, const K& key) const
 {
@@ -25,6 +29,7 @@ V AVLTree<K, V>::find(Node* subtree, const K& key) const
     }
 }
 
+// This function rotates a node in the tree left.
 template <class K, class V>
 void AVLTree<K, V>::rotateLeft(Node*& t)
 {
@@ -36,6 +41,7 @@ void AVLTree<K, V>::rotateLeft(Node*& t)
     t = temp;
 }
 
+// This function rotates a node in the tree Left then right.
 template <class K, class V>
 void AVLTree<K, V>::rotateLeftRight(Node*& t)
 {
@@ -45,6 +51,7 @@ void AVLTree<K, V>::rotateLeftRight(Node*& t)
     rotateRight(t);
 }
 
+// This function rotates a node in the tree right.
 template <class K, class V>
 void AVLTree<K, V>::rotateRight(Node*& t)
 {
@@ -56,6 +63,7 @@ void AVLTree<K, V>::rotateRight(Node*& t)
     t = temp;
 }
 
+// This function rotates a node in the tree right then left.
 template <class K, class V>
 void AVLTree<K, V>::rotateRightLeft(Node*& t)
 {
@@ -65,11 +73,14 @@ void AVLTree<K, V>::rotateRightLeft(Node*& t)
     rotateLeft(t);
 }
 
+// This function calculates the balance of a given subtree.
 template <class K, class V>
 int AVLTree<K, V>::balance(const Node* subRoot) {
     return heightOrNeg1(subRoot->right) - heightOrNeg1(subRoot->left);
 }
 
+// This function rebalances the tree around a given node.
+// A subtree is unbalanced if |balance| > 1
 template <class K, class V>
 void AVLTree<K, V>::rebalance(Node*& subtree)
 {
@@ -96,6 +107,9 @@ void AVLTree<K, V>::rebalance(Node*& subtree)
     setHeights(subtree);
 }
 
+// This function sets the height of a node.
+// The height of the node is equal to the sum
+// of the heights of the left and right subtrees.
 template <class K, class V>
 int AVLTree<K, V>::setHeights(Node* subRoot) {
     if(!subRoot) {
@@ -114,12 +128,16 @@ int AVLTree<K, V>::setHeights(Node* subRoot) {
     }
 }
 
+// This function inserts a node with key and value
+// into the tree.
 template <class K, class V>
 void AVLTree<K, V>::insert(const K & key, const V & value)
 {
     insert(root, key, value);
 }
 
+// This function is a helper function that inserts
+// a node with key and value into a given subtree
 template <class K, class V>
 void AVLTree<K, V>::insert(Node*& subtree, const K& key, const V& value)
 {
@@ -136,12 +154,17 @@ void AVLTree<K, V>::insert(Node*& subtree, const K& key, const V& value)
     rebalance(subtree);
 }
 
+// This function removes a node given a key.
 template <class K, class V>
 void AVLTree<K, V>::remove(const K& key)
 {
     remove(root, key);
 }
 
+// This function is a helper function that removes
+// a node with key from a given subtree.
+// This also rebalances the tree if removal of the
+// node causes an imbalance.
 template <class K, class V>
 void AVLTree<K, V>::remove(Node*& subtree, const K& key)
 {
