@@ -14,9 +14,10 @@ int main()
     int a, b;
     printf("Enter the width and height of the maze to create\n");
     printf("Width: ");
-    scanf("%d\n", &a);
-    printf("Height: ");
-    scanf("%d\n", &b);
+    scanf("%d", &a);
+    printf("\nHeight: ");
+    scanf("%d", &b);
+    printf("\n");
     SquareMaze maze2;
     maze2.makeMaze(a, b);
     cs225::PNG* mazePNG2 = maze2.drawMaze();
